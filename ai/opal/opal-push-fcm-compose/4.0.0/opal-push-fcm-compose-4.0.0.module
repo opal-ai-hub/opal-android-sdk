@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "ai.opal",
+    "module": "opal-push-fcm-compose",
+    "version": "4.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantMavenApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "ai.opal",
+          "module": "opal-push-fcm",
+          "version": {
+            "requires": "4.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opal-push-fcm-compose-4.0.0.aar",
+          "url": "opal-push-fcm-compose-4.0.0.aar",
+          "size": 8745,
+          "sha512": "6783472b06042ba921dcd6cb2b6810457b9cdc1da13f43e6316edc630d6ff6fa490509411c92815ae82e4fc418311b389427722f0832bf381fb29aa2c64b3d69",
+          "sha256": "d0163500041ce68bca94fe4f553adea789a51667e864b34d9144e8bf9b5c4860",
+          "sha1": "1c4bb2770d9eee3566dd5fea9190e0dd296350d5",
+          "md5": "1e8fa3e3cc6929e93174892c11785049"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantMavenRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "ai.opal",
+          "module": "opal-push-fcm",
+          "version": {
+            "requires": "4.0.0"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-compose",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opal-push-fcm-compose-4.0.0.aar",
+          "url": "opal-push-fcm-compose-4.0.0.aar",
+          "size": 8745,
+          "sha512": "6783472b06042ba921dcd6cb2b6810457b9cdc1da13f43e6316edc630d6ff6fa490509411c92815ae82e4fc418311b389427722f0832bf381fb29aa2c64b3d69",
+          "sha256": "d0163500041ce68bca94fe4f553adea789a51667e864b34d9144e8bf9b5c4860",
+          "sha1": "1c4bb2770d9eee3566dd5fea9190e0dd296350d5",
+          "md5": "1e8fa3e3cc6929e93174892c11785049"
+        }
+      ]
+    }
+  ]
+}
