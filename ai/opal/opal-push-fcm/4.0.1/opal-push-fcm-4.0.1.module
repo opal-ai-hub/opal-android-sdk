@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "ai.opal",
+    "module": "opal-push-fcm",
+    "version": "4.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantMavenApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opal-push-fcm-4.0.1.aar",
+          "url": "opal-push-fcm-4.0.1.aar",
+          "size": 160741,
+          "sha512": "6eba604f6e58c9661e1f2d21a122d357965951bb7e22449dbddb8325924031cc2198e291d3e527945f6f1ea22e3730ebf15c0f5eb4099495f50fb29111cee233",
+          "sha256": "0df20536f7e69d8307d3699298bf4f889838dfef95abbd759e39712be125d7c0",
+          "sha1": "c3fffacb044e2cf510e83bccc1248c395ad297d5",
+          "md5": "52367ba3a88b4d8d4b8c68c2c54f5b0a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantMavenRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.16.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opal-push-fcm-4.0.1.aar",
+          "url": "opal-push-fcm-4.0.1.aar",
+          "size": 160741,
+          "sha512": "6eba604f6e58c9661e1f2d21a122d357965951bb7e22449dbddb8325924031cc2198e291d3e527945f6f1ea22e3730ebf15c0f5eb4099495f50fb29111cee233",
+          "sha256": "0df20536f7e69d8307d3699298bf4f889838dfef95abbd759e39712be125d7c0",
+          "sha1": "c3fffacb044e2cf510e83bccc1248c395ad297d5",
+          "md5": "52367ba3a88b4d8d4b8c68c2c54f5b0a"
+        }
+      ]
+    }
+  ]
+}
