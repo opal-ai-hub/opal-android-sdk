@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "ai.opal",
+    "module": "opal-analytics",
+    "version": "4.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantMavenApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opal-analytics-4.0.2.aar",
+          "url": "opal-analytics-4.0.2.aar",
+          "size": 33528,
+          "sha512": "20135f27065628281ccdb0104ddde6bc8849bf5ae2270342959966568c785c2b07c54c58e99fd24119bc4606c764a310c4e8bfd6b8d42b1ac9f091e9c4b894ff",
+          "sha256": "064e78be6d2622dcd337210a6266f85da2b35ecebb23565fb26a33ded52a28bb",
+          "sha1": "4ea30987b4af86632d599748ec0844337d303106",
+          "md5": "147141954d010e0e4b4b45c8a0a4c1cd"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantMavenRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opal-analytics-4.0.2.aar",
+          "url": "opal-analytics-4.0.2.aar",
+          "size": 33528,
+          "sha512": "20135f27065628281ccdb0104ddde6bc8849bf5ae2270342959966568c785c2b07c54c58e99fd24119bc4606c764a310c4e8bfd6b8d42b1ac9f091e9c4b894ff",
+          "sha256": "064e78be6d2622dcd337210a6266f85da2b35ecebb23565fb26a33ded52a28bb",
+          "sha1": "4ea30987b4af86632d599748ec0844337d303106",
+          "md5": "147141954d010e0e4b4b45c8a0a4c1cd"
+        }
+      ]
+    }
+  ]
+}
